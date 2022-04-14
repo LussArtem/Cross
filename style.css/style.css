@@ -767,7 +767,7 @@ body{
 	color: #fff;
 	text-decoration: none;
 	overflow: hidden;
-	line-height: 20px;
+	line-height: 22px;
 	font-size: 18px;
 	font-weight: 700;
 	border-right: 1px solid white;
@@ -794,7 +794,7 @@ body{
 	filter: opacity(0%);
 	opacity: 0;
 	transform: translateY(-100%);
-	animation: mouse-out 0.45s;
+	animation: mouse-out 0.3s;
 	animation-timing-function: linear;
 }
 .conta1ner a:hover span:nth-child(2) {
@@ -804,19 +804,16 @@ body{
 
 @keyframes mouse-out {
 	0% {
-		opacity: .65;
+		opacity: .99;
 	}
 	25% {
-		opacity: .35;
+		opacity: 0.325;
 	}
 	50% {
-		opacity: 0.05;
+		opacity: 0;
 	}
 	75% {
-		opacity: 0.15;
-	}
-	85% {
-		opacity: 0.45;
+		opacity: 0;
 	}
 	100% {
 		opacity: 0.95;
